@@ -1,0 +1,29 @@
+@import './style/main';
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+/* #16a085 */
+
+/* select */
+::selection {
+  background-color: #16a085;
+  color: #fff;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+input {
+  box-shadow: none !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

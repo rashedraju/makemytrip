@@ -1,0 +1,27 @@
+// from mobile first
+@media (min-width: 576px) {
+    .w-sm-100 {
+        width: 100% !important;
+    }
+    .w-sm-50 {
+        width: 50% !important;
+    }
+}
+@media (min-width: 768px) {
+    .w-md-50 {
+        width: 50% !important;
+    }
+}
+
+// from desktop first
+@media (max-width: 767px) {
+    .w-mx-md-75 {
+        width: 75% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .w-mx-sm-100 {
+        width: 100% !important;
+    }
+}

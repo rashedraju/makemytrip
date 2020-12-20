@@ -1,0 +1,11 @@
+.header {
+    height: 100%;
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(0, 0, 0, 0.5),
+            rgba(22, 160, 133, 0.7)
+        ),
+        url('../../../assets/img/header.jpg');
+    background-position: center;
+    background-size: cover;
+}
