@@ -85,7 +85,7 @@ const SearchTripForm = (props) => {
                     </Form.Group> */}
                 </Form.Row>
                 {/* search buses action button */}
-                <Button variant="primary" className="d-block w-50 mx-auto mt-3 text-white border-white" type="submit"><i className="fa fa-search mx-1" aria-hidden="true"></i>Search Buses</Button>
+                <Button variant="primary" className="d-block w-50 mx-auto mt-3 text-white border-white" type="submit"><i className="fa fa-search mx-1" aria-hidden="true"></i>Search Trip</Button>
             </Form>
         </Aux>
     )

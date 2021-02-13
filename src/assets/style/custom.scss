@@ -4,9 +4,6 @@ $theme-colors: (
 .react-datepicker-wrapper {
     flex: 1;
 }
-.cursor-pointer {
-    cursor: pointer;
-}
 button,
 button::after,
 button::before,
@@ -14,5 +11,3 @@ button:active,
 button:focus {
     box-shadow: none !important;
 }
-@import './utility';
-@import '~bootstrap/scss/bootstrap';

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://makemybustrip.herokuapp.com/"
+const baseUrl = "http://localhost/makemytrip/"
 
 export default {
     makeMyTrip(url = baseUrl) {
